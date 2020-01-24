@@ -1,0 +1,26 @@
+.bill{
+
+}
+h2{
+    padding-top: 50px;
+    text-align: center;
+    margin: 1rem;
+}
+h4{
+    padding-top: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.bill_form{
+    color: #05154f;
+    font-size: 90%;
+    font-weight: bolder;
+    border-radius: 1rem;
+    letter-spacing: .1rem;
+    padding-top: 5rem;
+    transition: all 0.2s;
+}
+button{
+    width:300px;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+.content{
+    height: auto;
+    margin: 0 auto;
+}
+.tab-s{
+    width: 100%;
+}
+.tab-i{
+    width: 50%;
+}
+.tab-s .tab-l{
+    font-weight: bold;
+    padding-top: 13px;
+    text-align: center;
+    background: #343436;
+    color: #fff;
+    border-radius: 30px;
+    height: 100px;
+}
+.tab-s .tab-l.active{
+    background: #fff;
+    color: #000;
+}

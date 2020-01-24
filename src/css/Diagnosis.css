@@ -1,0 +1,41 @@
+h3{
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Merriweather', serif;
+    font-Size: 30px;
+    color: #d64d4d;
+    font-weight: bolder;
+    margin: 1rem;
+}
+.form-label{
+    font-size: 20px;
+    color: #d64d4d;
+}
+h4{
+    padding-top: 1rem;
+    font-family: 'Merriweather', serif;
+    color: #d64d4d;
+    font-weight: bolder;
+    margin-top: 1rem;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    padding: 1px;
+    color: #ab829b;
+    font-weight: lighter;
+}
+.diagnosis_form{
+    color: #05154f;
+    clear: both;
+    font-size: 90%;
+    font-weight: bolder;
+    border-radius: 1rem;
+    letter-spacing: .1rem;
+    padding-top: 5rem;
+    transition: all 0.2s;
+}
+button{
+    width:300px;
+    justify-content: center;
+}
