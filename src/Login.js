@@ -8,14 +8,13 @@ class Login extends React.Component{
             <div className="container">
                 <div className="row">
                     <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                        <div className="card card-signin my-5">
+                        <div className="card my-5">
                             <div className="card-body">
                                 <h3 className="card-title text-center">Sign In</h3>
                                 <form >
-
                                     <div className="form-label-group">
                                         <input type="email" id="inputEmail" className="form-control" placeholder="Enter Email" required/>
-                                        <label htmlFor="">Email Address</label>
+                                        <label htmlFor="inputEmail">Email Address</label>
                                     </div>
 
                                     <div className="form-label-group">
@@ -30,11 +29,12 @@ class Login extends React.Component{
 
                                     <button className="btn btn-lg btn-info btn-block text-uppercase" type="submit">Sign in</button>
                                     <div className="media">
-                                        <img src="../img/icon/lock.jpeg" alt="lock"/>
                                         <p>
-                                            <b>
-                                                 <a href="">Forget Password?</a>
-                                            </b>Please Contact Medical Department To Reset Password&nbsp;&nbsp;&nbsp;
+                                             <a href="">
+                                                 <i className="fa fa-unlock-alt" aria-hidden="true"></i>
+                                                 Forget Password?
+                                             </a>
+                                            Please Contact Medical Department To Reset Password
                                         </p>
                                     </div>
                                 </form>
