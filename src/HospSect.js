@@ -1,9 +1,7 @@
 import React from "react"
-import NavBar from './Components/Navbar'
 import Medical from './Components/MedicalHist'
-import {Nav, Col, Row, Container} from "react-bootstrap"
-import { Link, Route } from 'react-router-dom'
-import './css/HospSect.css'
+import { Col, Row, Container} from "react-bootstrap"
+import { Route } from 'react-router-dom'
 import SideBar from "./Components/SideBar";
 import NavB from "./Components/Navbar";
 
