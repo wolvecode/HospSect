@@ -1,23 +1,12 @@
-.content{
-    height: auto;
-    margin: 0 auto;
+.user{
+    background-color: #ecf0f1;
+    margin: 0px;
+    padding: 0px;
 }
-.tab-s{
-    width: 100%;
-}
-.tab-i{
-    width: 50%;
-}
-.tab-s .tab-l{
-    font-weight: bold;
-    padding-top: 13px;
+Tab title{
     text-align: center;
-    background: #343436;
-    color: #fff;
-    border-radius: 30px;
-    height: 100px;
+    width: 100px;
 }
-.tab-s .tab-l.active{
-    background: #fff;
-    color: #000;
+.myTab{
+    width: 100px;
 }
