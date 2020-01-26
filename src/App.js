@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap/dist/css/bootstrap-grid.css"
+
 import HospSect from "./HospSect";
 
 const Loading = ({ children }) => {

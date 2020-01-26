@@ -27,7 +27,6 @@ class Login extends React.Component{
                                         <label className="custom-control-label" htmlFor="customCheck1">Remember password</label>
                                     </div>
 
-                                    <button className="btn btn-lg btn-info btn-block text-uppercase" type="submit">Sign in</button>
                                     <div className="media">
                                         <p>
                                              <a href="">
@@ -36,6 +35,9 @@ class Login extends React.Component{
                                              </a>
                                             Please Contact Medical Department To Reset Password
                                         </p>
+                                    </div>
+                                    <div className="form-label-group">
+                                        <input type="submit"  className="form-control btn-info" value="Sign In"/>
                                     </div>
                                 </form>
                             </div>

@@ -10,7 +10,7 @@ export default function SideBar() {
             <Nav id="sidebar" className="flex-column">
                 <div className="nav-item nav-link">
                     <Link to='/' className="nav-link">
-                        <i className="fa fa-plus-square" />Administration and Billing
+                        <i className="fa fa-money" />Administration and Billing
                     </Link>
                 </div>
 

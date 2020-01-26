@@ -1,5 +1,5 @@
 import React from "react";
-import {Tabs, Tab, Col, Container,Row, Sonnet} from "react-bootstrap";
+import {Col, Container,Row, } from "react-bootstrap";
 import "../css/MedicalHist.css";
 
 class MedicalHist extends React.Component{
@@ -20,18 +20,31 @@ class MedicalHist extends React.Component{
                     </Col>
                 </Row>
                 <Row>
-                    <div>
-                        <nav className="tabs tabs-style-line">
-                            <ul>
-                                <li>
-                                    Key
-                                </li>
-                                <li>
-                                    Home
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <div className="tabs">
+                        <div className="tab-2">
+                            <label htmlFor="tab2-1">Medical</label>
+                            <input id="tab2-1" name="tabs-two" type="radio" checked="checked" />
+                            {/*  Tab Content  */}
+                                <div>
+                                    <h4>Tab One</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat
+                                        id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi
+                                    </p>
+                                </div>
+                        </div>
+                        <div className="tab-2">
+                            <label htmlFor="tab2-2">New History</label>
+                            <input id="tab2-2" name="tabs-two" type="radio" />
+                            {/*  Tab Content  */}
+                                <div>
+                                    <h4>Tab Two</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci,
+                                        animi aspernatur dolorem earum est, exercitationem illum iusto laudantium
+                                    </p>
+                                </div>
+                        </div>
+                        </div>
                 </Row>
             </Container>
         )

@@ -1,9 +1,10 @@
 import React from "react"
-import Medical from './Components/MedicalHist'
 import { Col, Row, Container} from "react-bootstrap"
 import { Route } from 'react-router-dom'
-import SideBar from "./Components/SideBar";
 import NavB from "./Components/Navbar";
+import SideBar from "./Components/SideBar";
+import Medical from './Components/MedicalHist'
+
 
 class HospSect extends React.Component{
     render() {
@@ -13,7 +14,10 @@ class HospSect extends React.Component{
                     <NavB/>
                 </Row>
                 <Row>
-                    <SideBar />
+
+                    <Col md={3} sm={3}>
+                        <SideBar />
+                    </Col>
                     <Col md={9} sm={9}>
 
                         <Route exact path="/" render={() => <p>
