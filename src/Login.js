@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/Login.css"
 
 class Login extends React.Component{
@@ -22,18 +21,21 @@ class Login extends React.Component{
                                         <label htmlFor="inputPassword">Password</label>
                                     </div>
 
-                                    <div className="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" className="custom-control-input" id="customCheck1"/>
-                                        <label className="custom-control-label" htmlFor="customCheck1">Remember password</label>
+                                    <div className="custom-control custom-checkbox mb-3 p-0">
+                                        <input type="checkbox" id="customCheck1" />
+                                        <label className="ml-2">Remember password</label>
                                     </div>
 
-                                    <button className="btn btn-lg btn-info btn-block text-uppercase" type="submit">Sign in</button>
-                                    <div className="media">
+                                    <div className="form-label-group ">
+                                        <button className="form-control bg-info p-3 m-0">SUBMIT</button>
+                                    </div>
+
+                                    <div className="form-label-group">
                                         <p>
-                                             <a href="">
-                                                 <i className="fa fa-unlock-alt" aria-hidden="true"></i>
-                                                 Forget Password?
-                                             </a>
+                                            <a href="#a">
+                                                <i className="fa fa-unlock-alt" aria-hidden="true"/>
+                                                Forget Password?
+                                            </a>
                                             Please Contact Medical Department To Reset Password
                                         </p>
                                     </div>
