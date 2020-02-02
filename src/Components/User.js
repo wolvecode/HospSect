@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/User.css";
 
-class User extends React.Component{
+class UserBill extends React.Component{
     render() {
         return(
             <div className="row nav-row">
@@ -11,7 +11,7 @@ class User extends React.Component{
                             <i className="fa fa-user" /> Azeez Biodun Habeeb
                         </li>
                         <li className="nav-item ml-auto">
-                            <i className="fa fa-sign-in" /> Sign as Azeez Biodun Habeeb
+                            <i className="fa fa-sign-in" /> You are sign as Azeez Biodun Habeeb
                         </li>
                     </ul>
                 </div>
@@ -19,4 +19,5 @@ class User extends React.Component{
         )
     }
 }
-export default User;
+
+export default UserBill;
