@@ -25,16 +25,19 @@
     transition: all 0.5s ease;
 }
 #sidebar .nav-link a{
+    text-decoration: none;
     background: none;
     border-bottom: 1px solid #455A64;
     color: #CFD8DC;
+    display: block;
+    border-radius: 5px;
     font-size: 14px;
     padding: 16px 24px;
 }
 
 #sidebar .nav-link a:hover{
     background: lightgrey;
-    color: #ECEFF1;
+    color: #7f8c8d;
 }
 
 #sidebar .nav-link a i{
