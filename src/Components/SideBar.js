@@ -5,6 +5,7 @@ import "../css/SideBar.css";
 
 export default function SideBar() {
     return (
+<<<<<<< HEAD
         <div className="container-fluid">
             <div className="row">
                 <div id="sidebar" className="col-6 col-sm-2 col-md-3  col-lg-3 flex-column">
@@ -36,6 +37,15 @@ export default function SideBar() {
                             Diagnosis
                         </a>
                     </div >
+=======
+        <Col md={3} lg={3} id="view" className="nav-pills" >
+            <Nav id="sidebar" className="flex-column">
+                <div className="nav-item nav-link">
+                    <Link to='/' className="nav-link">
+                        <i className="fa fa-money" />Administration and Billing
+                    </Link>
+                </div>
+>>>>>>> master
 
                     <div className="nav-item nav-link">
                         <a href="#b">

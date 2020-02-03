@@ -26,11 +26,15 @@ class Login extends React.Component{
                                         <label className="ml-2">Remember password</label>
                                     </div>
 
+<<<<<<< HEAD
                                     <div className="form-label-group ">
                                         <button className="form-control bg-info p-3 m-0">SUBMIT</button>
                                     </div>
 
                                     <div className="form-label-group">
+=======
+                                    <div className="media">
+>>>>>>> master
                                         <p>
                                             <a href="#a">
                                                 <i className="fa fa-unlock-alt" aria-hidden="true"/>
@@ -38,6 +42,9 @@ class Login extends React.Component{
                                             </a>
                                             Please Contact Medical Department To Reset Password
                                         </p>
+                                    </div>
+                                    <div className="form-label-group">
+                                        <input type="submit"  className="form-control btn-info" value="Sign In"/>
                                     </div>
                                 </form>
                             </div>

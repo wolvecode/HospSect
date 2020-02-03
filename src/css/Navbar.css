@@ -9,4 +9,14 @@ button{
     margin-right: 5px;
     font-size: 20px;
     font-weight: bolder;
+<<<<<<< HEAD
+=======
+}
+.form-style{
+    margin-left: auto;
+}
+Button{
+    position: absolute;
+    margin-left: 210px;
+>>>>>>> master
 }
